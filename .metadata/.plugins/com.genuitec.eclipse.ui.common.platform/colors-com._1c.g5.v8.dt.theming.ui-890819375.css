@@ -1,0 +1,103 @@
+@import url("platform:/plugin/com._1c.g5.v8.dt.theming.ui/css/dark/edt-dark_basestyle.css");
+@import url("platform:/plugin/com._1c.g5.v8.dt.theming.ui/css/dark/edt-dark_globalstyle.css");
+@import url("platform:/plugin/com._1c.g5.v8.dt.theming.ui/css/dark/edt-dark_partstyle.css");
+
+/* Form editor fix */
+.MPart SashForm > CTabFolder > Composite,
+.MPartStack.active .MPart SashForm > CTabFolder > Composite {
+background-color: #49535a;
+color: #ebedef;
+}
+
+/* Styles for DCS */
+.MPart DataSets CLabel,
+.MPart DataSets ToolBar,
+.MPart Templates ToolBar,
+.MPart Settings ToolBar,
+.MPart Settings CTabFolder ToolBar,
+.MPart Settings CTabFolder Parameters,
+.MPart Settings CTabFolder ConditionalAppearance,
+.MPart Settings CTabFolder UserFields,
+.MPart Settings CTabFolder Output,
+.MPartStack.active .MPart DataSets CLabel,
+.MPartStack.active .MPart DataSets ToolBar,
+.MPartStack.active .MPart Templates ToolBar,
+.MPartStack.active .MPart Settings ToolBar,
+.MPartStack.active .MPart Settings CTabFolder ToolBar,
+.MPartStack.active .MPart Settings CTabFolder Parameters,
+.MPartStack.active .MPart Settings CTabFolder ConditionalAppearance,
+.MPartStack.active .MPart Settings CTabFolder UserFields,
+.MPartStack.active .MPart Settings CTabFolder Output {
+background-color: #202427;
+}
+
+.MPart Links ToolBar,
+.MPart CalculatedFields ToolBar,
+.MPart Parameters ToolBar,
+.MPart NestedSchemas ToolBar,
+.MPartStack.active .MPart Links ToolBar,
+.MPartStack.active .MPart CalculatedFields ToolBar,
+.MPartStack.active .MPart Parameters ToolBar,
+.MPartStack.active .MPart NestedSchemas ToolBar {
+background-color: #2c3135;
+}
+
+.MPartSashContainer CTabFolder.MPartStack > Composite,
+.MPartSashContainer CTabFolder.MPartStack > Composite > ToolBar {
+background-color: #3e464c;
+}
+
+/* Disable active/not active color change for granular editors because lwt does not support it */
+.MPart DtScrolledForm Form Composite,
+.MPart DtScrolledForm Form DtLayoutComposite,
+.MPart DtScrolledForm Form DtLayoutComposite Section,
+.MPart DtScrolledForm Form DtLayoutComposite Hyperlink,
+.MPartStack.active .MPart DtScrolledForm Form Composite,
+.MPartStack.active .MPart DtScrolledForm Form DtLayoutComposite,
+.MPartStack.active .MPart DtScrolledForm Form DtLayoutComposite Section,
+.MPartStack.active .MPart DtScrolledForm Form DtLayoutComposite Hyperlink {
+background-color: #202427;
+color: #8f9ba3;
+}
+.MPart DtScrolledForm Form DtLayoutComposite Section Label,
+.MPartStack.active .MPart DtScrolledForm Form DtLayoutComposite Section Label {
+background-color: #454e54;
+color: #f4f5f6;
+}
+
+/* Disable active/not active color change for properties view because lwt does not support it */
+.MPart PropertiesScrolledComposite DtLayoutComposite,
+.MPart PropertiesScrolledComposite DtLayoutComposite Hyperlink,
+.MPart PropertiesScrolledComposite DtLayoutComposite Text,
+.MPart PropertiesScrolledComposite DtLayoutComposite StyledText,
+.MPartStack.active .MPart PropertiesScrolledComposite DtLayoutComposite,
+.MPartStack.active .MPart PropertiesScrolledComposite DtLayoutComposite Hyperlink,
+.MPartStack.active .MPart PropertiesScrolledComposite DtLayoutComposite Text,
+.MPartStack.active .MPart PropertiesScrolledComposite DtLayoutComposite StyledText {
+background-color: #202427;
+color: #8f9ba3;
+}
+
+/* ToolBar color on granular editor sections fix */
+.MPart DtScrolledForm Form DtLayoutComposite Section > ToolBar,
+.MPartStack.active .MPart DtScrolledForm Form DtLayoutComposite Section > ToolBar {
+background-color: #454e54;
+color: #f4f5f6;
+}
+
+/* Text editor fix */
+.MPart Canvas > StyledText,
+.MPartStack.active .MPart Canvas > StyledText {
+background-color: #202427;
+}
+
+/* Dialog DtLabel fix (for example "All Events Editor" set filter dialog) */
+Composite > Composite > DtLabel {
+background-color: #49535a;
+}
+
+/* Form editor ToolBars fix */
+.MPart SashForm > SashForm > CTabFolder ToolBar,
+.MPartStack.active .MPart SashForm > SashForm > CTabFolder ToolBar {
+background-color: #202427;
+}

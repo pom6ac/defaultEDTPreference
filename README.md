@@ -1,1 +1,1 @@
-# defaultEDTPreference
+# Дефолтные настройки EDT

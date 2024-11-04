@@ -1,0 +1,8 @@
+/* Styles for Diagram framework scale selector */
+.MPartStack.active .MPart FigureCanvas > Composite,
+.MPartStack.active .MPart FigureCanvas > Composite > Label,
+.MPartStack.active .MPart FigureCanvas > Composite > ToolBar,
+.MPartStack.active .MPart FigureCanvas > Composite > Scale {
+background-color: #454e54;
+color: #eef0f1;
+}

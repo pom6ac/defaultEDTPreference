@@ -1,0 +1,213 @@
+@import url("platform:/plugin/com._1c.g5.v8.dt.theming.ui/css/dark/edt-dark_basestyle.css");
+@import url("platform:/plugin/com._1c.g5.v8.dt.theming.ui/css/dark/edt-dark_globalstyle.css");
+@import url("platform:/plugin/com._1c.g5.v8.dt.theming.ui/css/dark/edt-dark_partstyle.css");
+
+CTabFolder {
+swt-tab-renderer: url('bundleclass://com._1c.g5.v8.dt.theming.ui/com._1c.g5.v8.dt.theming.ui.StyledCTabRenderer');
+}
+
+CTabFolder[style~='SWT.DOWN'][style~='SWT.BOTTOM'] {
+swt-tab-renderer: url('bundleclass://com._1c.g5.v8.dt.theming.ui/com._1c.g5.v8.dt.theming.ui.StyledCTabRenderer');
+}
+
+.MPartStack {
+swt-tab-renderer: url('bundleclass://com._1c.g5.v8.dt.theming.ui/com._1c.g5.v8.dt.theming.ui.StyledCTabRenderer');
+}
+
+#org-eclipse-help-ui-HelpView Form ImageHyperlink {
+background-color: #272c30;
+color: #c7cdd1;
+}
+
+/* Special colors for form content on windows */
+.MPart Form Section,
+.MPart Form Section Label,
+.MPart Form Section Button,
+.MPart Form Section Text,
+.MPart Form Section Tree,
+.MPart Form Section Table,
+.MPart Form Section Hyperlink,
+.MPart Form Section Composite,
+.MPart Form Section Composite StyledText,
+.MPart Form Section DtLayoutComposite,
+.MPart Form Section DtLayoutComposite Text,
+.MPart Form ScheduleControl,
+.MPart Form ScheduleControl TabFolder,
+.MPart Form ScheduleControl TabFolder Composite,
+.MPart Section > ToolBar {
+/* Same colors as active because lwt does not support reskin */
+background-color: #202427;
+color: #8f9ba3;
+}
+.MPartStack.active .MPart Form Section,
+.MPartStack.active .MPart Form Section Label,
+.MPartStack.active .MPart Form Section Button,
+.MPartStack.active .MPart Form Section Text,
+.MPartStack.active .MPart Form Section Tree,
+.MPartStack.active .MPart Form Section Table,
+.MPartStack.active .MPart Form Section Hyperlink,
+.MPartStack.active .MPart Form Section Composite,
+.MPartStack.active .MPart Form Section StyledText,
+.MPartStack.active .MPart Form Section DtLayoutComposite,
+.MPartStack.active .MPart Form Section DtLayoutComposite Text,
+.MPartStack.active .MPart BreakpointsHandlerPanel Label,
+.MPartStack.active .MPart Form ScheduleControl,
+.MPartStack.active .MPart Form ScheduleControl TabFolder,
+.MPartStack.active .MPart Form ScheduleControl TabFolder Composite,
+.MPartStack.active .MPart Section > ToolBar {
+background-color: #202427;
+color: #8f9ba3;
+}
+.MPart Form DtLayoutComposite StyledText {
+/* Same colors as active because lwt does not support reskin */
+background-color: #202427;
+color: #8f9ba3;
+}
+.MPartStack.active .MPart Form DtLayoutComposite StyledText {
+background-color: #202427;
+color: #8f9ba3;
+}
+
+/* Make properties scroll composite same color as form */
+.MPart PropertiesScrolledComposite DtLayoutComposite,
+.MPart PropertiesScrolledComposite DtLayoutComposite Hyperlink,
+.MPart PropertiesScrolledComposite DtLayoutComposite Text,
+.MPart PropertiesScrolledComposite DtLayoutComposite StyledText,
+.MPart PropertiesScrolledComposite Section DtLayoutComposite,
+.MPart PropertiesScrolledComposite Section DtLayoutComposite Hyperlink,
+.MPart PropertiesScrolledComposite Section DtLayoutComposite Text,
+.MPart PropertiesScrolledComposite Section DtLayoutComposite StyledText {
+/* Same colors as active because lwt does not support reskin */
+background-color: #202427;
+color: #8f9ba3;
+}
+.MPartStack.active .MPart PropertiesScrolledComposite DtLayoutComposite,
+.MPartStack.active .MPart PropertiesScrolledComposite DtLayoutComposite Hyperlink,
+.MPartStack.active .MPart PropertiesScrolledComposite DtLayoutComposite Text,
+.MPartStack.active .MPart PropertiesScrolledComposite DtLayoutComposite StyledText,
+.MPartStack.active .MPart PropertiesScrolledComposite Section DtLayoutComposite,
+.MPartStack.active .MPart PropertiesScrolledComposite Section DtLayoutComposite Hyperlink,
+.MPartStack.active .MPart PropertiesScrolledComposite Section DtLayoutComposite Text,
+.MPartStack.active .MPart PropertiesScrolledComposite Section DtLayoutComposite StyledText {
+background-color: #202427;
+color: #8f9ba3;
+}
+
+/* Styles for tree and table selected item */
+Tree,
+Table {
+lines-visible: false;
+swt-selection-border-color: #202427;
+}
+
+/* Styles for DCS */
+.MPart DataSets Composite,
+.MPart DataSets Composite Label,
+.MPart DataSets Composite Button,
+.MPart DataSets ToolBar,
+.MPart DataSets SashForm,
+.MPart DataSets SashForm Sash,
+.MPart DataSets Tree,
+.MPart DataSets StyledText,
+.MPart DataSets Text,
+.MPart Templates Composite,
+.MPart Templates ToolBar,
+.MPart Templates Label,
+.MPart Templates Sash,
+.MPart Resources Sash,
+.MPart Settings ToolBar,
+.MPart Settings Composite,
+.MPart Settings CTabFolder Composite,
+.MPart Settings CTabFolder TableEx Composite, /* for settings tab */
+.MPart Settings SashForm,
+.MPart Settings Sash,
+.MPart Settings Composite Label,
+.MPart DataSetsFieldsViewerFull > Composite,
+.MPart DataSetsQuery Composite,
+.MPart DataSetsQuery Label,
+.MPart DataSetsQuery CLabel,
+.MPart DataSetsQuery ToolBar,
+.MPart DataSetsQuery Canvas,
+.MPart Links,
+.MPart SelectedFields ToolBar,
+.MPart Filter ToolBar,
+.MPart Order ToolBar,
+.MPart Parameters Button,
+.MPart TableEx,
+.MPart TableEx Composite,
+.MPartStack.active .MPart DataSets Composite,
+.MPartStack.active .MPart DataSets Composite Label,
+.MPartStack.active .MPart DataSets Composite Button,
+.MPartStack.active .MPart DataSets ToolBar,
+.MPartStack.active .MPart DataSets SashForm,
+.MPartStack.active .MPart DataSets SashForm Sash,
+.MPartStack.active .MPart DataSets Tree,
+.MPartStack.active .MPart DataSets StyledText,
+.MPartStack.active .MPart DataSets Text,
+.MPartStack.active .MPart Templates Composite,
+.MPartStack.active .MPart Templates ToolBar,
+.MPartStack.active .MPart Templates Label,
+.MPartStack.active .MPart Templates Sash,
+.MPartStack.active .MPart Resources Sash,
+.MPartStack.active .MPart Settings ToolBar,
+.MPartStack.active .MPart Settings Composite,
+.MPartStack.active .MPart Settings CTabFolder Composite,
+.MPartStack.active .MPart Settings CTabFolder TableEx Composite, /* for settings tab */
+.MPartStack.active .MPart Settings SashForm,
+.MPartStack.active .MPart Settings Sash,
+.MPartStack.active .MPart Settings Composite Label,
+.MPartStack.active .MPart DataSetsFieldsViewerFull > Composite,
+.MPartStack.active .MPart DataSetsQuery Composite,
+.MPartStack.active .MPart DataSetsQuery Label,
+.MPartStack.active .MPart DataSetsQuery CLabel,
+.MPartStack.active .MPart DataSetsQuery ToolBar,
+.MPartStack.active .MPart DataSetsQuery Canvas,
+.MPartStack.active .MPart Links,
+.MPartStack.active .MPart SelectedFields ToolBar,
+.MPartStack.active .MPart Filter ToolBar,
+.MPartStack.active .MPart Order ToolBar,
+.MPartStack.active .MPart Parameters Button,
+.MPartStack.active .MPart TableEx,
+.MPartStack.active .MPart TableEx Composite {
+background-color: #202427;
+color: #8f9ba3;
+}
+
+/* Form editor swt toolbar black foreground fix */
+.MPart SashForm > SashForm > CTabFolder Composite,
+.MPart SashForm > SashForm > CTabFolder Composite > ToolBar,
+.MPartStack.active .MPart SashForm > SashForm > CTabFolder Composite,
+.MPartStack.active .MPart SashForm > SashForm > CTabFolder Composite > ToolBar {
+background-color: #454e54;
+color: #f4f5f6;
+}
+.MPart SashForm > SashForm > Sash,
+.MPart SashForm > SashForm > CTabFolder Tree,
+.MPart SashForm > SashForm > CTabFolder Table,
+.MPartStack.active .MPart SashForm > SashForm > Sash,
+.MPartStack.active .MPart SashForm > SashForm > CTabFolder Tree,
+.MPartStack.active .MPart SashForm > SashForm > CTabFolder Table {
+background-color: #202427;
+color: #b3bbc1;
+}
+
+.MPartStack.active #org-eclipse-help-ui-HelpView Form ImageHyperlink {
+background-color: #202427;
+color: #b3bbc1;
+}
+
+.Mpart Form Section Hyperlink,
+.MPartStack.active .Mpart Form Section Hyperlink {
+background-color: #454e54;
+color: #f4f5f6;
+}
+
+CTabFolder Canvas {
+background-color: #22272a;
+color: #d8dcdf;
+}
+
+.MPartStack.active CTabFolder Canvas {
+background-color: #22272a;
+color: #d8dcdf;
+}

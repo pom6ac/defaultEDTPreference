@@ -1,0 +1,13 @@
+com.1c.g5.v8.dt.erd.ui.commentBackgroundColor.=101,114,123
+com.1c.g5.v8.dt.erd.ui.connectionSelectedColor.=240,225,125
+com.1c.g5.v8.dt.erd.ui.entityBackgroundColor.=101,114,123
+com.1c.g5.v8.dt.erd.ui.entityDefaultBorderColor.=62,76,100
+com.1c.g5.v8.dt.erd.ui.entityPartBackgroundSelectedColor.=240,225,125
+com.1c.g5.v8.dt.erd.ui.entityPartBorderColor.=101,114,123
+com.1c.g5.v8.dt.erd.ui.entitySelectedBorderColor.=240,225,125
+com.1c.g5.v8.dt.erd.ui.groupBackgroundColor.=101,114,123
+com.1c.g5.v8.dt.erd.ui.groupBorderDefaultColor.=62,76,100
+com.1c.g5.v8.dt.erd.ui.groupBorderSelectedColor.=240,225,125
+com._1c.g5.v8.dt.erd.ui.expandBarHeaderForegroundColor=255,255,255
+eclipse.preferences.version=1
+overriddenByCSS=,com.1c.g5.v8.dt.erd.ui.commentBackgroundColor.,com.1c.g5.v8.dt.erd.ui.connectionSelectedColor.,com.1c.g5.v8.dt.erd.ui.entityBackgroundColor.,com.1c.g5.v8.dt.erd.ui.entityDefaultBorderColor.,com.1c.g5.v8.dt.erd.ui.entityPartBackgroundSelectedColor.,com.1c.g5.v8.dt.erd.ui.entityPartBorderColor.,com.1c.g5.v8.dt.erd.ui.entitySelectedBorderColor.,com.1c.g5.v8.dt.erd.ui.groupBackgroundColor.,com.1c.g5.v8.dt.erd.ui.groupBorderDefaultColor.,com.1c.g5.v8.dt.erd.ui.groupBorderSelectedColor.,com._1c.g5.v8.dt.erd.ui.expandBarHeaderForegroundColor,

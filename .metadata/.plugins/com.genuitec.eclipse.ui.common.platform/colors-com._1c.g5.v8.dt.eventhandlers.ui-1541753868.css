@@ -1,0 +1,30 @@
+MainSection,
+SubSection {
+background-color: #454e54;
+color: #f4f5f6;
+background-color-titlebar: #454e54;
+background-color-gradient-titlebar: #454e54;
+border-color-titlebar: #454e54;
+}
+
+.MPart SubSection {
+background-color: #272c30;
+color: #a0aab1;
+}
+
+.MPartStack.active .MPart SubSection {
+background-color: #202427;
+color: #8f9ba3;
+}
+
+.MPart ExpandBar Label,
+.MPart ExpandBar Button {
+background-color: #272c30;
+color: #a0aab1;
+}
+
+.MPartStack.active .MPart ExpandBar Label,
+.MPartStack.active .MPart ExpandBar Button {
+background-color: #202427;
+color: #8f9ba3;
+}
